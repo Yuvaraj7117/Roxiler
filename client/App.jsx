@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css'; // Import the CSS file
-import Chart from './Chart.jsx';
+
 
 const App = () => {
   const [transactionsData, setTransactionsData] = useState([]);
